@@ -16,6 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     # When the dist_dir is ready, deploy it to neocities
+    - uses: actions/checkout@v3
     - name: Deploy to neocities
       uses: bcomnes/deploy-to-neocities@v1.1.21
       with:
