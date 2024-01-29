@@ -4,7 +4,7 @@
   uses: bcomnes/deploy-to-neocities@v1.1.21
   with:
     # Neocities API token for site to deploy to
-    api_token: 
+    api_token: $
     # Local folder to deploy to neocities
     dist_dir: # default is public
     # Delete orphaned files on neocities that don't exist in distDir
